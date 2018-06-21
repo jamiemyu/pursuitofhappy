@@ -47,7 +47,7 @@ let usedNums = [];
 
 function generateIdea() {
     if (usedNums.length == ideas.length) {
-        document.getElementById('idea-container').innerHTML = "We are out of ideas... Send us an idea at jamieyu96@gmail.com!";
+        document.getElementById('idea-container').innerHTML = "We are out of ideas... Send us an idea at admin@pursuitofhappy.me";
     } else {
         let randInt = 0;
         while (usedNums.includes(randInt)) {
