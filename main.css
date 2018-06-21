@@ -8,6 +8,10 @@ body {
     height: 100%;
 }
 
+#generate-container:active {
+    background-color: #e3eced;
+}
+
 #generate-container:hover {
     color: #689ea5;
 }
