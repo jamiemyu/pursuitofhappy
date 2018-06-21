@@ -1,19 +1,14 @@
 body {
     font-family: Courier;
-    margin: 32px;
+    margin: 72px;
 }
 
 #generate-container {
+    background-color: #e3eced;
+    border-radius: 5px;
+    color: #689ea5;
     cursor: pointer;
     height: 100%;
-}
-
-#generate-container:active {
-    background-color: #e3eced;
-}
-
-#generate-container:hover {
-    color: #689ea5;
 }
 
 #title-container{
