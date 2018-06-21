@@ -1,0 +1,31 @@
+body {
+    font-family: Courier;
+    margin: 32px;
+}
+
+#generate-container {
+    cursor: pointer;
+    height: 100%;
+}
+
+#generate-container:hover {
+    color: #689ea5;
+}
+
+#title-container{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#idea-container {
+    color: #345054;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
